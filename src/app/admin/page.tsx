@@ -16,6 +16,9 @@ export default async function AdminPage() {
           <li><Link href="/admin/requests">Заявки</Link></li>
           <li><Link href="/admin/admins">Администраторы</Link></li>
           <li><Link href="/admin/logs">Журнал действий</Link></li>
+                  <li><a href="/admin/directions">Направления</a></li>
+          <li><a href="/admin/news">Новости</a></li>
+          <li><a href="/admin/gallery">Галерея</a></li>
         </ul>
       </div>
     </>
