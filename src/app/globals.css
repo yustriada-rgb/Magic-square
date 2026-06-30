@@ -1,0 +1,8 @@
+:root { --bg: #f8f3eb; --text: #2f241d; --accent: #ef8f00; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: var(--bg); color: var(--text); }
+main { max-width: 920px; margin: 0 auto; padding: 24px; }
+.card { background: #fffdf8; border: 1px solid #f1dfc4; border-radius: 12px; padding: 16px; margin: 12px 0; }
+input, textarea, button { font: inherit; padding: 10px; border-radius: 8px; border: 1px solid #c7b49a; }
+button { background: var(--accent); color: #fff; border: none; cursor: pointer; }
+.footer-legal { margin-top: 24px; font-size: 12px; opacity: 0.85; }
